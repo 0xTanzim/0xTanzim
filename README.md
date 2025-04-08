@@ -65,7 +65,7 @@
 
 <p align="center">
   <a href="https://wakatime.com/@0xTanzim">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=tanzimhossain2&theme=gotham&hide_border=true&layout=compact&hide_title=true&langs_count=14&range=all_time" width="58%" alt="Wakatime Stats">
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=0xTanzim&theme=gotham&hide_border=true&layout=compact&hide_title=true&langs_count=14&range=all_time" width="58%" alt="Wakatime Stats">
   </a>
 </p>
 

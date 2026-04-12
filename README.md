@@ -1,45 +1,87 @@
 # Hi, I'm Tanzim Hossain 👋
 
-I design and build backend systems with a focus on clean architecture, predictable behavior, and long-term scalability. I care about systems that are easy to reason about at small scale and remain sane as they grow.
+Backend & System Design Engineer focused on building scalable, production-ready systems.
+
+I design backend architectures that remain reliable under growth, with clear boundaries, strong data models, and APIs that evolve safely over time.
+
+Alongside backend engineering, I have solid experience with React and Next.js, focusing on architecture, patterns, and maintainable frontend structure. I treat frontend as part of the overall system, ensuring clean integration between client and backend.
+
+---
+## 🧠 How I Build Systems
+
+- Design backend systems with clear boundaries (controller → service → data layer)
+- Start with a modular monolith, evolve to microservices only when needed
+- Build APIs with explicit contracts and backward compatibility in mind
+- Design multi-tenant systems with strong isolation and RBAC-based authorization
+- Use caching and async patterns to handle high-read and background workloads
+- Prefer simple, maintainable solutions over early optimization or over-engineering
+- Make trade-offs explicit (performance vs complexity vs operational cost)
+
+---
+## 🏗️ Featured Projects
+
+### 🔹 Multi-Tenant SaaS Platform
+- Modular monolith in a Turborepo monorepo (shared packages across backend & Next.js)
+- Implemented tenant isolation and RBAC-based authorization
+- Deployed on AWS with Redis (caching, session handling) and Docker
+- Chose Modular monolith over microservices to reduce early operational complexity
+
+### 🔹 Microservices Architecture System
+- Designed service-oriented system with API Gateway and auth service
+- Implemented service-to-service communication and distributed data flow
+- Evaluated monolith vs microservices trade-offs for scaling boundaries
+
+### 🔹 NextRush (Custom Backend Framework)
+- Built custom routing, middleware pipeline, and plugin system
+- Focused on extensibility and modular backend architecture
+- Explored internal design patterns of backend frameworks
+---
+
+
+## 🧠 Core Strengths
+
+- Backend systems built with TypeScript (Node.js) and Java (Spring Boot), focusing on modular design and long-term maintainability  
+- Designing APIs with clear contracts, versioning strategy, and backward compatibility  
+- Building multi-tenant and RBAC-based systems with strong access control  
+- Applying clean architecture and service boundaries to keep systems scalable and testable  
+- Working with databases and consistency models for reliable data handling  
+- Using Docker and containerized environments for consistent deployment
+
+---
+## ⚡ Low-Level & Systems Understanding
+
+- C++ for understanding memory, performance, and system-level behavior  
+- Explored Node.js internals and native addons  
+- Apply low-level insights to design efficient backend systems  
 
 ---
 
-## 🚀 About Me
+## ⚙️ Engineering Approach
 
-**What I do**
-- Backend engineering with strong emphasis on system design and software architecture
-- Designing APIs and services that stay maintainable under real-world growth
-- Integrating AI capabilities into backend systems responsibly and pragmatically
-
-**Core strengths**
-- TypeScript & Java for production-grade backend systems
-- Clean architecture, SOLID principles, and modular design
-- Authorization models including RBAC and PBAC
-- Database design, API contracts, and backend security fundamentals
-
-**Currently exploring**
-- C++ for low-level system understanding
-- Distributed systems, microservices, and DevOps workflows
-- Cloud-native patterns and operational best practices
+- Design for failure, not just success  
+- Keep systems simple, predictable, and scalable  
+- Make trade-offs explicit (performance vs complexity)
+- Prefer simple, maintainable systems over early optimization
 
 ---
 
-## 🧠 What I Care About
+## 👥 Leadership & Mentorship
 
-- Building systems that favor clarity over cleverness  
-- Making architectural trade-offs explicit and intentional  
-- Designing multi-tenant and authorization-heavy systems correctly  
-- Writing code that other engineers can understand six months later  
+- Led and mentored a team of developers  
+- Taught backend and frontend fundamentals (JS, TS, React, Next.js, Express)  
+- Guided project development with focus on clean architecture  
 
 ---
 
+## 🌱 Beyond Engineering
 
-## 🌱 Beyond Code
-
-- Interested in AI, blockchain, and emerging system patterns
+- Study system design, architecture patterns, and distributed systems deeply  
+- Explore AI systems (LLMs, agents) as part of real application design  
+- Focus on long-term thinking, decision-making, and engineering discipline  
 - Study trading and psychology to improve decision-making under uncertainty
 - Enjoy contributing to open source and writing clear technical documentation
 
+---
 
 <div align="center"> 
   <p>⚡ I like building systems that work smart and stay maintainable.</p>
@@ -95,14 +137,6 @@ I design and build backend systems with a focus on clean architecture, predictab
     <a href="https://wakatime.com/@0xTanzim">
   <img src="https://github-readme-stats-0xtanzim.vercel.app/api/wakatime?username=0xTanzim&theme=gotham&layout=compact&hide_border=true&langs_count=14" width="55%" />
         </a>
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy-0xtanzim.vercel.app/?username=0xTanzim&theme=radical&no-bg=false&margin-w=4" />
 </p>
 
 ---

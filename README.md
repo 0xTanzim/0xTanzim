@@ -1,83 +1,76 @@
 # Hi, I'm Tanzim Hossain 👋
 
-Backend & System Design Engineer focused on building scalable, production-ready systems.
+Backend Engineer focused on building reliable backend applications with TypeScript (Node.js) and Java (Spring Boot).
 
-I design backend architectures that remain reliable under growth, with clear boundaries, strong data models, and APIs that evolve safely over time.
+I build backend systems with clear service boundaries, maintainable data models, and well-defined APIs — with a focus on multi-tenant architecture and PostgreSQL data modeling.
 
-Alongside backend engineering, I have solid experience with React and Next.js, focusing on architecture, patterns, and maintainable frontend structure. I treat frontend as part of the overall system, ensuring clean integration between client and backend.
+Alongside backend engineering, I have experience with React and Next.js, focusing on architecture, patterns, and maintainable frontend structure. I treat frontend as part of the overall system, ensuring clean integration between client and backend.
 
 ---
-## 🧠 How I Build Systems
+
+## 🧠 Engineering Principles
 
 - Design backend systems with clear boundaries (controller → service → data layer)
-- Start with a modular monolith, evolve to microservices only when needed
+- Prefer modular monoliths and introduce service boundaries only when they solve a real problem
 - Build APIs with explicit contracts and backward compatibility in mind
 - Design multi-tenant systems with strong isolation and RBAC-based authorization
-- Use caching and async patterns to handle high-read and background workloads
+- Use caching and background processing where they simplify application performance or user experience
 - Prefer simple, maintainable solutions over early optimization or over-engineering
 - Make trade-offs explicit (performance vs complexity vs operational cost)
 
 ---
+
 ## 🏗️ Featured Projects
 
-### 🔹 Multi-Tenant SaaS Platform
-- Modular monolith in a Turborepo monorepo (shared packages across backend & Next.js)
-- Implemented tenant isolation and RBAC-based authorization
-- Deployed on AWS with Redis (caching, session handling) and Docker
-- Chose Modular monolith over microservices to reduce early operational complexity
+- **[Multi-Tenant SaaS Platform](https://0xtanzim.dev/projects/salon-management-saas)** — Solo-built booking platform (Next.js + NestJS + Postgres) with structural tenant isolation, RBAC, and idempotent Stripe billing.
+- **[FileTree Pro](https://marketplace.visualstudio.com/items?itemName=0xTanzim.filetree-pro)** — VS Code extension, 36,000+ installs, 5.0 rating on the Marketplace.
+- **[NextRush](https://github.com/0xTanzim/nextrush)** — TypeScript backend framework, benchmarked against Fastify/Express/Koa/Hono (~14% overhead vs raw Node.js).
 
-### 🔹 Microservices Architecture System
-- Designed service-oriented system with API Gateway and auth service
-- Implemented service-to-service communication and distributed data flow
-- Evaluated monolith vs microservices trade-offs for scaling boundaries
+More case studies: **[0xtanzim.dev/projects](https://0xtanzim.dev/projects)**
 
-### 🔹 NextRush (Custom Backend Framework)
-- Built custom routing, middleware pipeline, and plugin system
-- Focused on extensibility and modular backend architecture
-- Explored internal design patterns of backend frameworks
 ---
-
 
 ## 🧠 Core Strengths
 
-- Backend systems built with TypeScript (Node.js) and Java (Spring Boot), focusing on modular design and long-term maintainability  
-- Designing APIs with clear contracts, versioning strategy, and backward compatibility  
-- Building multi-tenant and RBAC-based systems with strong access control  
-- Applying clean architecture and service boundaries to keep systems scalable and testable  
-- Working with databases and consistency models for reliable data handling  
+- Backend systems in TypeScript (Node.js) and Java (Spring Boot), focused on modular design and long-term maintainability
+- Designing APIs with clear contracts and backward compatibility in mind
+- Building multi-tenant and RBAC-based systems with strong access control
+- Applying clean architecture and service boundaries to keep systems maintainable and testable
+- Working with PostgreSQL — schema design, indexing, transactions, and data consistency
 - Using Docker and containerized environments for consistent deployment
 
 ---
+
 ## ⚡ Low-Level & Systems Understanding
 
-- C++ for understanding memory, performance, and system-level behavior  
-- Explored Node.js internals and native addons  
-- Apply low-level insights to design efficient backend systems  
+- C++ for understanding memory, performance, and system-level behavior
+- Explored Node.js internals and native addons
+- Learning how low-level concepts influence backend performance and runtime behavior
 
 ---
 
 ## ⚙️ Engineering Approach
 
-- Design for failure, not just success  
-- Keep systems simple, predictable, and scalable  
+- Consider failure scenarios during API and backend design
+- Keep systems simple, predictable, and maintainable
 - Make trade-offs explicit (performance vs complexity)
 - Prefer simple, maintainable systems over early optimization
 
 ---
 
-## 👥 Leadership & Mentorship
+## 👥 Mentorship
 
-- Led and mentored a team of developers  
-- Taught backend and frontend fundamentals (JS, TS, React, Next.js, Express)  
-- Guided project development with focus on clean architecture  
+- Mentored developers at Softsasi — code reviews, debugging methodology, backend architecture fundamentals
+- Taught backend and frontend fundamentals (JS, TS, React, Next.js, Express)
+- Coached on project structure with a focus on clean architecture
 
 ---
 
 ## 🌱 Beyond Engineering
 
-- Study system design, architecture patterns, and distributed systems deeply  
-- Explore AI systems (LLMs, agents) as part of real application design  
-- Focus on long-term thinking, decision-making, and engineering discipline  
+- Learning backend architecture, distributed computing concepts, and software engineering through hands-on projects
+- Explore AI systems (LLMs, on-device/browser AI) as part of real application design
+- Focus on long-term thinking, decision-making, and engineering discipline
 - Study trading and psychology to improve decision-making under uncertainty
 - Enjoy contributing to open source and writing clear technical documentation
 
@@ -104,7 +97,7 @@ Alongside backend engineering, I have solid experience with React and Next.js, f
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,java,ts,nestjs,spring,postgres,mongodb,redis,jest,docker,kubernetes,aws,bash,notion&theme=light" />
+  <img src="https://skillicons.dev/icons?i=cpp,java,ts,nestjs,spring,postgres,mongodb,redis,docker,aws,bash,notion&theme=light" />
 </p>
 
 ---
